@@ -1,0 +1,12 @@
+standard-app-packages
+iron:router
+twbs:bootstrap
+aldeed:autoform
+aldeed:collection2
+cfs:autoform
+cfs:standard-packages
+cfs:gridfs
+cfs:filesystem
+cfs:dropbox
+mquandalle:jade
+accounts-password

@@ -1,0 +1,13 @@
+template(name="home")
+	div.container
+		if currentUser
+			div.buttonList
+				a.btn.btn-default(href="admin/add-product") Add products
+		div.jumbotron
+			+autoForm(collection="Bills" id="addBill" type="insert")
+				+afQuickField(name="name")
+				+afQuickField(name="mobile")
+				+afQuickField(name="email")
+				+afQuickField(name="request")
+				+afQuickField(name="receipts")
+				button(type="submit") Submit
